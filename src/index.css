@@ -59,12 +59,12 @@ code {
     }
 
     button[value="AC"],
-    button[value="Back"] {
+    button[value="Del"] {
       background-color: #c0392b;
     }
 
     button[value="AC"]:hover,
-    button[value="Back"]:hover {
+    button[value="Del"]:hover {
       background-color: #e74c3c;
     }
 
