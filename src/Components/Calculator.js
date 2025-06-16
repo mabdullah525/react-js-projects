@@ -24,7 +24,7 @@ const Calculator = () => {
     return (
         <>
             
-            <div className='calculator' style={{ display: 'none' }}>
+            <div className='calculator'>
                 <div className='zero'>
                     <input placeholder="0" value={result} />
                 </div>

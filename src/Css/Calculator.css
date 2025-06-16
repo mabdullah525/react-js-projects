@@ -56,18 +56,4 @@
     button[value="="]:hover {
       background-color: #2ecc71;
     }
-    
-    /* .cal{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    }
-    .stopw{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    } */
+  

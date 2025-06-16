@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
 }
 
 code {
@@ -12,16 +16,13 @@ code {
     monospace;
 }
 
-body {
-  background-color: white;
-  height: 100vh;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-}
+
 .app {
-      display: flex;
-      gap: 20px;
-    }
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -29,19 +30,20 @@ body {
   padding: 44px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.tab-btns{
+
+.tab-btns {
   display: flex;
-      gap: 10px;
+  gap: 10px;
 }
+
 .tab-btns button {
-      padding: 12px 18px;
-      margin-bottom: 25px;
-      font-size: 18px;
-      border: none;
-      border-radius: 8px;
-      
-      background-color: #3b3b4f;
-      color: #fff;
-      cursor: pointer;
-      transition: background-color 0.2s;
-    }
+  padding: 12px 18px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b3b4f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}

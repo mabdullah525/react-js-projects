@@ -1,15 +1,11 @@
-
-
 .container h1 {
   font-size: 54px;
   margin-left: 5%;
   text-align: center;
-  color: #333; /* darker text for better readability */
+  color: white;
 }
 
 .container .buttons button {
-  position: relative;
-  margin-top: 25%;
   width: 100px;
   height: 40px;
   font-size: 20px;
@@ -19,6 +15,15 @@
   color: white;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+}
+
+.watch {
+  background-color: #2e2e3e;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .start {
