@@ -1,0 +1,46 @@
+
+
+.container h1 {
+  font-size: 54px;
+  margin-left: 5%;
+  text-align: center;
+  color: #333; /* darker text for better readability */
+}
+
+.container .buttons button {
+  position: relative;
+  margin-top: 25%;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  margin-inline: 11px;
+  cursor: pointer;
+  color: white;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.start {
+  background-color: #28a745;
+}
+
+.start:hover {
+  background-color: #218838;
+}
+
+.stop {
+  background-color: #dc3545;
+}
+
+.stop:hover {
+  background-color: #c82333;
+}
+
+.reset {
+  background-color: #007bff;
+}
+
+.reset:hover {
+  background-color: #0069d9;
+}

@@ -11,67 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-  body {
-      background-color: #1e1e2f;
+
+body {
+  background-color: white;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+.app {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
+      gap: 20px;
     }
-
-    .container {
-      background-color: #2e2e3e;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-      width: 300px;
-    }
-
-    input {
-      width: 90%;
-      padding: 15px;
-      font-size: 24px;
-      text-align: right;
-      border: none;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      background-color: #1a1a26;
-      color: #fff;
-    }
-
-    button {
-      width: 65px;
-      height: 50px;
-      margin: 5px;
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 44px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tab-btns{
+  display: flex;
+      gap: 10px;
+}
+.tab-btns button {
+      padding: 12px 18px;
+      margin-bottom: 25px;
       font-size: 18px;
       border: none;
       border-radius: 8px;
+      
       background-color: #3b3b4f;
       color: #fff;
       cursor: pointer;
       transition: background-color 0.2s;
-    }
-
-    button:hover {
-      background-color: #57576d;
-    }
-
-    button[value="AC"],
-    button[value="Del"] {
-      background-color: #c0392b;
-    }
-
-    button[value="AC"]:hover,
-    button[value="Del"]:hover {
-      background-color: #e74c3c;
-    }
-
-    button[value="="] {
-      background-color: #27ae60;
-    }
-
-    button[value="="]:hover {
-      background-color: #2ecc71;
     }
