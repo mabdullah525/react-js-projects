@@ -20,6 +20,7 @@
 .watch {
   background-color: #2e2e3e;
   border-radius: 12px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
