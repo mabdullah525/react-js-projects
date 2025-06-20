@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import '../Css/Calculator.css';
+import { evaluate } from 'mathjs';
 
 
 
@@ -8,22 +9,27 @@ const Calculator = () => {
 
     const getValue = (event) => {
         setResult(result.concat(event.target.value));
+    };
 
-    }
     const calculation = () => {
-        setResult(eval(result).toString());
+        try {
+            const evaluated = evaluate(result);
+            setResult(evaluated.toString());
+        } catch (error) {
+            setResult("Error");
+        }
+    };
 
-    }
     const del = () => {
         setResult(result.slice(0, -1));
-    }
+    };
+
     const ac = () => {
         setResult("");
-    }
-
+    };
     return (
         <>
-            
+
             <div className='calculator'>
                 <div className='zero'>
                     <input placeholder="0" value={result} />
