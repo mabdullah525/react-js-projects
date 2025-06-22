@@ -1,0 +1,27 @@
+.greeting {
+  text-align: center;
+  padding: 60px 20px;
+  background: #2e2e3e;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.greeting h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.greeting h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.greeting p {
+  font-size: 18px;
+  opacity: 0.9;
+}
