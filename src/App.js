@@ -3,6 +3,7 @@ import './App.css';
 import Calculator from './Components/Calculator';
 import Stopwatch from './Components/Stopwatch';
 import Accordion from './Components/Accordion/Accordion';
+import Greeting  from './Components/Greeting';
 
 function App() {
   const [activeTab, setActiveTab] = useState('calculator');
@@ -23,12 +24,14 @@ function App() {
           Stopwatch
         </button>
         <button className={`${activeTab === 'accordion' ? 'active' : ''}`} onClick={() => setActiveTab('accordion')}>Accordion</button>
+        <button className={`${activeTab === 'greeting' ? 'active' : ''}`} onClick={() => setActiveTab('greeting')}>Greeting</button>
       </div>
 
       <div className='app'>
         {activeTab === 'calculator' && <Calculator />}
         {activeTab === 'stopwatch' && <Stopwatch />}
         {activeTab === 'accordion' && <Accordion />}
+        {activeTab === 'greeting' && <Greeting />}
       </div>
     </div>
   );
