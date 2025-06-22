@@ -1,0 +1,16 @@
+
+.accordion{
+    width: 400px;
+    margin: auto;
+    background-color: #2e2e3e;
+    border-radius: 2px;
+    margin-top: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.qns{
+    display: flex;
+}
+.qns h3{
+    
+}

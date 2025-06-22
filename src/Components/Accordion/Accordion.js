@@ -3,6 +3,8 @@ import { data } from "../Accordion/AccorData"
 import { index } from 'mathjs'
 import AccorUi from './AccorUi'
 
+
+
 const Accordion = () => {
   
   return (

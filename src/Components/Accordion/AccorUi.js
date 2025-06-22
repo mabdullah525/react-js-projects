@@ -1,8 +1,24 @@
 import React from 'react'
+import '../../Css/Accor.css';
 
-const AccorUi = (props) => {
+
+
+
+const AccorUi = ({ curElem }) => {
   return (
-    <div>AccorUi</div>
+    <>
+      <div className='accordion'>
+        <div className='qns'>
+          <button>
+            +
+          </button>
+          <h3>{curElem.title}</h3>
+          <p>{curElem.content}</p>
+
+        </div>
+
+      </div>
+    </>
   )
 }
 

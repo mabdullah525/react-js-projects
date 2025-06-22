@@ -16,7 +16,6 @@ code {
     monospace;
 }
 .app {
-  display: flex;
   margin-top: 20px;
 }
 

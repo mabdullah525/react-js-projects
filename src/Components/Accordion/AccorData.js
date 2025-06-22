@@ -4,6 +4,7 @@ export const data = [
         title: 'What is React?',
         content: 'React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can change data, without reloading the page. Its key feature is the ability to build reusable UI components.'
     },
+    
     {
         id: 2,
         title: 'What is a component in React?',
@@ -23,5 +24,7 @@ export const data = [
         id: 5,
         title: 'What is JSX?',
         content: 'JSX (JavaScript XML) is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript. It makes it easier to create React elements and components, as it closely resembles the structure of the UI.'
-    }
+    },
+
+    
 ]
