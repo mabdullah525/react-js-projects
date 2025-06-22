@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AccorUi = () => {
+const AccorUi = (props) => {
   return (
     <div>AccorUi</div>
   )
