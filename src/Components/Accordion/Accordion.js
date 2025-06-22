@@ -1,6 +1,5 @@
 import React from 'react'
 import { data } from "../Accordion/AccorData"
-import { index } from 'mathjs'
 import AccorUi from './AccorUi'
 
 
