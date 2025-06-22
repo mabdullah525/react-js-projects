@@ -20,11 +20,7 @@ export const data = [
         title: 'What are props in React?',
         content: 'Props (short for properties) are a way of passing data from parent to child components in React. They are read-only and help to make components reusable by allowing them to receive different data.'
     },
-    {
-        id: 5,
-        title: 'What is JSX?',
-        content: 'JSX (JavaScript XML) is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript. It makes it easier to create React elements and components, as it closely resembles the structure of the UI.'
-    },
+    
 
     
 ]
