@@ -32,7 +32,7 @@ const Calculator = () => {
 
             <div className='calculator'>
                 <div className='zero'>
-                    <input placeholder="0" value={result} />
+                    <input className='calc-input' placeholder="0" value={result} />
                 </div>
                 <button className='key-btn' onClick={getValue} value="(">(</button>
                 <button onClick={getValue} value=")">)</button>

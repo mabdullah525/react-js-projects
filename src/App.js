@@ -34,7 +34,7 @@ function App() {
         {activeTab === 'stopwatch' && <Stopwatch />}
         {activeTab === 'accordion' && <Accordion />}
         {activeTab === 'greeting' && <Greeting />}
-        {activeTab === 'greeting' && <Todos />}
+        {activeTab === 'todos' && <Todos />}
       </div>
     </div>
   );
