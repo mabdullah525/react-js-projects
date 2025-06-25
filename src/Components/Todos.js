@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Css/Todos.css'
 
 const Todos = () => {
     return (
@@ -9,6 +10,7 @@ const Todos = () => {
                     <button>Add Todo</button>
                 </div>
             </div>
+
         </>
     )
 }

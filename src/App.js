@@ -37,6 +37,7 @@ function App() {
         {activeTab === 'todos' && <Todos />}
       </div>
     </div>
+    
   );
 }
 
