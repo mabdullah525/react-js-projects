@@ -23,10 +23,11 @@ const Greeting = () => {
     let imageSource = '';
 
     if (currentHour < 12) {
-        greetingMessage = 'Good Morning';
+        greetingMessage = 'Good Afternoon';
+
         imageSource = morning;
     } else if (currentHour < 18) {
-        greetingMessage = 'Good Afternoon';
+        greetingMessage = 'Good Morning';
         imageSource = evening;
     } else {
         greetingMessage = 'Good Evening';
